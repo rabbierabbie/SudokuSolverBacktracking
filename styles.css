@@ -27,14 +27,18 @@ header{
 }
 
 #solve-here{
-    height: 30px;
-    background-color: black;
-    border: none;
+    padding: 8px 17px;
+    background: black;
     color: white;
-    font-size: 20px;
+    font-weight: 900;
+    border: 2px solid gray;
+    border-radius: 8px;
+    margin: 10px 0;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.solve-button{
+.solve-button{/*centering a button in div element requires this*/
         display: flex;
         justify-content: center;
 }
