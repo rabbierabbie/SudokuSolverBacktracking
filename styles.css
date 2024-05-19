@@ -38,10 +38,28 @@ header{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+#clear-here{
+    padding: 8px 17px;
+    background: black;
+    color: white;
+    font-weight: 900;
+    border: 2px solid gray;
+    border-radius: 8px;
+    margin: 10px 0;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 .solve-button{/*centering a button in div element requires this*/
         display: flex;
         justify-content: center;
 }
+
+.clear-button{/*centering a button in div element requires this*/
+    display: flex;
+    justify-content: center;
+}
+
 footer{
     margin-top: 20px;
     text-align: center;
